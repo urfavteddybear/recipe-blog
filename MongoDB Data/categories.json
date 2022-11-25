@@ -40,4 +40,11 @@
   "name": "Spanish",
   "image": "spanish-food.jpg",
   "__v": 0
-}]
+},{
+  "_id": {
+    "$oid": "614dd75a9693912a00f05152"
+  },
+  "name": "Indonesian",
+  "image": "Indonesian-food.jpg",
+  "__v": 0
+  }]
