@@ -31,7 +31,7 @@ exports.exploreCategories = async(req, res) => {
   try {
     const limitNumber = 20;
     const categories = await Category.find({}).limit(limitNumber);
-    res.render('categories', { title: 'Cooking Blog - Categoreis', categories } );
+    res.render('categories', { title: 'Cooking Blog - Categories', categories } );
   } catch (error) {
     res.satus(500).send({message: error.message || "Error Occured" });
   }
@@ -47,7 +47,7 @@ exports.exploreCategoriesById = async(req, res) => {
     let categoryId = req.params.id;
     const limitNumber = 20;
     const categoryById = await Recipe.find({ 'category': categoryId }).limit(limitNumber);
-    res.render('categories', { title: 'Cooking Blog - Categoreis', categoryById } );
+    res.render('categories', { title: 'Cooking Blog - Categories', categoryById } );
   } catch (error) {
     res.satus(500).send({message: error.message || "Error Occured" });
   }
