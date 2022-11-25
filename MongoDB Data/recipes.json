@@ -290,4 +290,28 @@
   "category": "Mexican",
   "image": "chinese-steak-tofu-stew.jpg",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "638098502f664d37284a9af7"
+  },
+  "name": "Pan-fried red mullet with crispy breadcrumbs & a herby tomato salad",
+  "description": "1. Chop the tomatoes into irregular chunks and tip into a big bowl with a couple of glugs of extra virgin olive oil and a splash of vinegar.\r\n2. Season the tomatoes with sea salt and black pepper, then taste, tweak, taste, tweak... I usually add a bit more vinegar, salt or extra virgin olive oil until the tomatoes and their juices sing in my mouth. This is a normal thing to do, so just be confident!\r\n3. Pick and finely chop the basil and dill and mix into the tomatoes.\r\n4. Season the fish fillets, then dip them in a little flour to dust them on both sides, shaking off any excess.\r\n5. Drizzle a glug of olive oil into a frying pan over a medium-high heat and, once hot, place the fish skin-side down in the pan, lightly pressing the fillets down using a fish slice.\r\n6. Fry the fish for 3 minutes, or until the skin is bright orangey golden and crisp. Turn the fish over and fry for 1 minute on the other side, or until just cooked. Remove the fish to a plate while you make the crispy breadcrumbs.\r\n7. Drizzle a little olive oil to the juices in the pan, then strip in the thyme leaves, add the breadcrumbs, crumble up the chilli and finely grate in the lemon zest. Toss around and fry for 3 to 4 minutes, or until lightly golden and crispy.\r\n8. Divide the tomato salad between four plates and either lay 2 fish fillets over the top of each salad, or break the fillets up and scatter over the tomatoes. I like to put the hot and crispy breadcrumbs in a little bowl with a teaspoon in them and sprinkle it over my guests’ plates at the table – delicious.\r\n\r\n\r\nSource : https://www.jamieoliver.com/recipes/fish-recipes/pan-fried-red-mullet-with-crispy-breadcrumbs-a-herby-tomato-salad/",
+  "email": "hello@test.com",
+  "ingredients": [
+    "8 red mullet fillets , (100g each), scaled and pin-boned, from sustainable sources",
+    "plain flour, for dusting",
+    "olive oil",
+    "3 big handfuls of mixed-colour tomatoes",
+    "extra virgin olive oil",
+    "red wine vinegar",
+    "½ a bunch of fresh basil , (15g)",
+    "½ a bunch of fresh dill , (15g), or fennel tops",
+    "4 sprigs of fresh thyme",
+    "200 g stale breadcrumbs",
+    "2 dried red chillies",
+    "1 lemon"
+  ],
+  "category": "American",
+  "image": "166937198470291994144 (1).jpg",
+  "__v": 0
 }]
