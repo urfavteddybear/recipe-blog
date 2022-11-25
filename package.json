@@ -8,7 +8,7 @@
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "urfavteddybear",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
