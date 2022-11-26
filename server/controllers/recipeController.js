@@ -137,7 +137,7 @@ exports.submitRecipeOnPost = async(req, res) => {
     let newImageName;
 
     if(!req.files || Object.keys(req.files).length === 0){
-      console.log('No Files where uploaded.');
+      console.log('No Files were uploaded.');
     } else {
 
       imageUploadFile = req.files.image;
