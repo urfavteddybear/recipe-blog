@@ -33,7 +33,7 @@ exports.exploreCategories = async(req, res) => {
     const categories = await Category.find({}).limit(limitNumber);
     res.render('categories', { title: 'Cooking Blog - Categories', categories } );
   } catch (error) {
-    res.satus(500).send({message: error.message || "Error Occured" });
+    res.status(500).send({message: error.message || "Error Occured" });
   }
 } 
 
@@ -49,7 +49,7 @@ exports.exploreCategoriesById = async(req, res) => {
     const categoryById = await Recipe.find({ 'category': categoryId }).limit(limitNumber);
     res.render('categories', { title: 'Cooking Blog - Categories', categoryById } );
   } catch (error) {
-    res.satus(500).send({message: error.message || "Error Occured" });
+    res.status(500).send({message: error.message || "Error Occured" });
   }
 } 
  
@@ -63,7 +63,7 @@ exports.exploreRecipe = async(req, res) => {
     const recipe = await Recipe.findById(recipeId);
     res.render('recipe', { title: 'Cooking Blog - Recipe', recipe } );
   } catch (error) {
-    res.satus(500).send({message: error.message || "Error Occured" });
+    res.status(500).send({message: error.message || "Error Occured" });
   }
 } 
 
@@ -78,7 +78,7 @@ exports.searchRecipe = async(req, res) => {
     let recipe = await Recipe.find( { $text: { $search: searchTerm, $diacriticSensitive: true } });
     res.render('search', { title: 'Cooking Blog - Search', recipe } );
   } catch (error) {
-    res.satus(500).send({message: error.message || "Error Occured" });
+    res.status(500).send({message: error.message || "Error Occured" });
   }
   
 }
@@ -93,7 +93,7 @@ exports.exploreLatest = async(req, res) => {
     const recipe = await Recipe.find({}).sort({ _id: -1 }).limit(limitNumber);
     res.render('explore-latest', { title: 'Cooking Blog - Explore Latest', recipe } );
   } catch (error) {
-    res.satus(500).send({message: error.message || "Error Occured" });
+    res.status(500).send({message: error.message || "Error Occured" });
   }
 } 
 
@@ -110,7 +110,7 @@ exports.exploreRandom = async(req, res) => {
     let recipe = await Recipe.findOne().skip(random).exec();
     res.render('explore-random', { title: 'Cooking Blog - Explore Latest', recipe } );
   } catch (error) {
-    res.satus(500).send({message: error.message || "Error Occured" });
+    res.status(500).send({message: error.message || "Error Occured" });
   }
 } 
 
@@ -146,7 +146,7 @@ exports.submitRecipeOnPost = async(req, res) => {
       uploadPath = require('path').resolve('./') + '/public/uploads/' + newImageName;
 
       imageUploadFile.mv(uploadPath, function(err){
-        if(err) return res.satus(500).send(err);
+        if(err) return res.status(500).send(err);
       })
 
     }
