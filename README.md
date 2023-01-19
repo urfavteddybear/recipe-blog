@@ -1,1 +1,1 @@
-Just a school project. whatcha need?
+Just a school project. Whatcha need?
