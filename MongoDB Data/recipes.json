@@ -279,19 +279,6 @@
   "__v": 0
 },{
   "_id": {
-    "$oid": "614df88c3a1dc54758844690"
-  },
-  "name": "New Chocolate Cake",
-  "description": "Chocolate Cake Description...",
-  "email": "hello@email.com",
-  "ingredients": [
-    "Water"
-  ],
-  "category": "Mexican",
-  "image": "chinese-steak-tofu-stew.jpg",
-  "__v": 0
-},{
-  "_id": {
     "$oid": "638098502f664d37284a9af7"
   },
   "name": "Pan-fried red mullet with crispy breadcrumbs & a herby tomato salad",
