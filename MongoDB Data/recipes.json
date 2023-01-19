@@ -314,4 +314,30 @@
   "category": "American",
   "image": "166937198470291994144 (1).jpg",
   "__v": 0
+},{
+  "_id": {
+    "$oid": "6380cc8139e79ed45c013a23"
+  },
+  "name": "Nasi Goreng",
+  "description": "1. For the Spice Paste: Add half the shallots to a mortar and grind with the pestle until a coarse purée forms. Add remaining shallots, followed by garlic, chile, and terasi (if using), grinding with the pestle until each ingredient is mostly incorporated before adding the next. The final paste should resemble thick oatmeal in texture. Alternatively, combine all spice paste ingredients in a small food processor and process until they form a paste.\r\n2. For the Nasi Goreng: If using day-old rice, transfer rice to a bowl and break rice up with your hands into individual grains.\r\n3. Heat oil in a large wok or skillet over high heat until shimmering. Add spice paste and cook, stirring constantly and scraping the bottom of the wok or pan to prevent the paste from burning, until a pungent smell permeates your kitchen and the paste turns a few shades darker, 2 to 3 minutes. Reduce heat to medium at any time if the paste appears to be browning too quickly.\r\n4. Add rice to the wok and stir to coat with the spice paste. Add kecap manis and soy sauce. Stir and cook until rice is evenly colored and hot throughout. Season with salt and white pepper.\r\n5. Divide rice between two plates and top each plate of rice with a fried egg. Garnish with cucumber and tomato slices and shower with fried shallots, if you like. Serve immediately with kecap manis alongside for drizzling.\r\nSource : https://www.seriouseats.com/nasi-goreng-recipe",
+  "email": "hi@email.com",
+  "ingredients": [
+    "2 small shallots (2 ounces; 55g), roughly chopped",
+    "3 medium cloves garlic",
+    "1 large fresh green chile, such as Fresno or Holland, stemmed and seeded, or 1 teaspoon sambal oelek, such as Huy Fong",
+    "1/2 teaspoon terasi (Indonesian shrimp paste), optional",
+    "4 cups cold cooked jasmine rice (21 ounces; 600g) or other medium- to long-grain rice",
+    "2 tablespoons (30ml) neutral oil, such as canola or sunflower oil",
+    "2 tablespoons (30ml) kecap manis",
+    "2 teaspoons (10ml) soy sauce",
+    "Kosher salt",
+    "Ground white pepper",
+    "2 large fried eggs, cooked sunny-side up or over easy",
+    "Sliced cucumbers (optional)",
+    "Sliced tomatoes (optional)",
+    "Fried shallots (optional)"
+  ],
+  "category": "Indonesian",
+  "image": "1669385345348Nasi-Goreng-square-FS-57.jpg",
+  "__v": 0
 }]
