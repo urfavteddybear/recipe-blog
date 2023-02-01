@@ -61,4 +61,11 @@
       "name": "Australian",
       "image": "Australian-Food.jpg",
       "__v": 0
-      }]
+      },{
+        "_id": {
+          "$oid": "614dd75a9693912a00f05155"
+        },
+        "name": "Laos",
+        "image": "Laos-food.jpg",
+        "__v": 0
+        }]
