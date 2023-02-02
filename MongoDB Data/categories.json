@@ -65,7 +65,35 @@
         "_id": {
           "$oid": "614dd75a9693912a00f05155"
         },
-        "name": "Laos",
+        "name": "Laotian",
         "image": "Laos-food.jpg",
         "__v": 0
-        }]
+        },{
+          "_id": {
+            "$oid": "614dd75a9693912a00f05156"
+          },
+          "name": "Singaporean",
+          "image": "Singaporean-Food.jpg",
+          "__v": 0
+          },{
+            "_id": {
+              "$oid": "614dd75a9693912a00f05157"
+            },
+            "name": "Filipino",
+            "image": "Filipin-food.jpg",
+            "__v": 0
+            },{
+              "_id": {
+                "$oid": "614dd75a9693912a00f05158"
+              },
+              "name": "Timor Leste",
+              "image": "Timor-Leste-Food.jpg",
+              "__v": 0
+              },{
+                "_id": {
+                  "$oid": "614dd75a9693912a00f05159"
+                },
+                "name": "Taiwanese",
+                "image": "Taiwanese-Food.jpg",
+                "__v": 0
+                }]
