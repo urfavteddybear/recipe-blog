@@ -1,0 +1,13 @@
+services:
+  recipe-blog:
+    container_name: recipe-blog
+    build:
+      context: .
+      target: recipe-blog
+    ports:
+      - "3000:3000" # Not required
+    volumes:
+      - ./src:/app/src # Mount code directory
+    environment:
+      - MONGODB_URI=changeme # Set your environment variables if needed
+    restart: unless-stopped
