@@ -8,7 +8,7 @@ require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3000;
-const host = process.env.HOST || '127.0.0.1'; // Specify the IP address
+const host = process.env.HOST || '0.0.0.0'; // Specify the IP address
 
 // Middleware configurations
 app.use(express.urlencoded({ extended: true }));
