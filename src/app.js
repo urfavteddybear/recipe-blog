@@ -4,13 +4,14 @@ const fileUpload = require('express-fileupload');
 const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const flash = require('connect-flash');
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3000;
+const host = process.env.HOST || '127.0.0.1'; // Specify the IP address
 
-require('dotenv').config();
-
-app.use(express.urlencoded( { extended: true } ));
+// Middleware configurations
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(expressLayouts);
 
@@ -23,10 +24,13 @@ app.use(session({
 app.use(flash());
 app.use(fileUpload());
 
+// EJS layout setup
 app.set('layout', './layouts/main');
 app.set('view engine', 'ejs');
 
-const routes = require('./server/routes/recipeRoutes.js')
+// Routes
+const routes = require('./server/routes/recipeRoutes.js');
 app.use('/', routes);
 
-app.listen(port, ()=> console.log(`Listening to port ${port}`));
+// Start the server
+app.listen(port, host, () => console.log(`Listening on http://${host}:${port}`));
